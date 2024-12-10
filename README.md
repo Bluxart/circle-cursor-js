@@ -5,21 +5,24 @@ A simple JavaScript script to create an interactive circular cursor for personal
 Show the live demo (link to the demo or preview).
 
 ## Installation
-Download [Node.js](https://nodejs.org/en/download/).
+To get started, you'll need to have [Node.js](https://nodejs.org/en/download/) installed.
 
-Install dependencies:
+### Step 1: Install Dependencies
+After downloading and installing Node.js, run the following command in your project directory to install all required dependencies:
 
 ```
 npm install
 ```
 
-Compile the code for development and start a local server:
+### Step 2: Start the Development Server
+To compile the code for development and start a local server, use:
 
 ```
 npm start
 ```
 
-Create the build:
+### Step 3: Build for Production
+To create the build for production, use:
 
 ```
 npm run build
