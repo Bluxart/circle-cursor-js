@@ -1,0 +1,36 @@
+// IMPORTS
+@use '../abstracts/variables' as *;
+
+/* @start: Typography */
+body,
+input,
+button,
+select,
+textarea {
+    color: $body-text-color;
+    font-family: $body-font-family;
+    font-size: $body-font-size;
+    font-weight: $body-font-weight;
+    line-height: $body-line-height;
+}
+
+input,
+button,
+select,
+textarea {
+    font-size: $body-font-size;
+    line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $heading-text-color;
+    font-family: $heading-font-family;
+    font-weight: $heading-font-weight;
+    line-height: $heading-line-height;
+    margin: 0;
+}

@@ -1,0 +1,48 @@
+// IMPORTS
+@use '../abstracts/functions' as *;
+@use '../abstracts/variables' as *;
+@use '../abstracts/placeholders' as *;
+
+/* @start: Hero Header */
+.hero-header {
+
+    &__grid {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(rgba($color-white, 0.05) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba($color-white, 0.05) 1px, transparent 1px);
+        background-size: rem(50px) rem(50px);
+        overflow: hidden;
+    }
+
+    &__grid-overlay {
+        @extend %full-absolute;
+        background: linear-gradient(0deg, rgba($color-black-shark, 1) 0%, rgba($color-black-shark, 0) 100%);
+        pointer-events: none;
+    }
+
+    &__content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+    }
+
+    &__title {
+        color: $color-white;
+        font-size: rem(120px);
+        font-weight: 900;
+        font-style: italic;
+        letter-spacing: -2px;
+
+        span {
+            text-decoration: underline;
+        }
+
+    }
+
+}

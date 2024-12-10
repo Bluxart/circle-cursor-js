@@ -1,0 +1,30 @@
+// IMPORTS
+@use '../abstracts/functions' as *;
+
+// COLORS
+$color-black       : #000000;
+$color-black-shark : #1A1A1F;
+$color-white       : #FFFFFF;
+$color-red-amaranth: #E11D48;
+
+// FONT-FAMILY
+$font-body   : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-heading: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// HTML
+$html-font-size: 16px;
+$html-bg-color : $color-white;
+
+// BODY
+$body-font-family: $font-body;
+$body-font-size  : rem(16px);
+$body-font-weight: 400;
+$body-line-height: 1.4;
+$body-text-color : $color-black;
+$body-bg-color   : $color-white;
+
+// HEADINGS
+$heading-font-family: $font-heading;
+$heading-font-weight: bold;
+$heading-line-height: 1.1;
+$heading-text-color : $color-black;

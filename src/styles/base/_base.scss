@@ -1,0 +1,26 @@
+// IMPORTS
+@use '../abstracts/variables' as *;
+
+/* @start: Base */
+html {
+    position: relative;
+    top: auto;
+    width: 100%;
+    min-height: -webkit-fill-available;
+    -webkit-marquee-increment: 0vw;
+    font-size: clamp(1px, 14px, 10 * 100vw/1500);
+    font-kerning: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeSpeed;
+    background-color: $color-black-shark;
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    background-color: $color-black-shark;
+}

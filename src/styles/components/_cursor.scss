@@ -1,0 +1,37 @@
+// IMPORTS
+@use '../abstracts/variables' as *;
+
+/* @start: Cursor */
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 98;
+
+    &__circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+
+        &--small {
+            width: 10px;
+            height: 10px;
+            background-color: $color-white;
+        }
+
+        &--large {
+            width: 40px;
+            height: 40px;
+            border: 2px solid $color-red-amaranth;
+        }
+
+    }
+
+}
+
+.cursor-hide {
+    display: none;
+}

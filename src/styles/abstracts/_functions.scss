@@ -1,0 +1,10 @@
+// Convert Pixel to Rem
+@function rem( $target, $context: 16px ) {
+
+    @if $target == 0 {
+        @return 0;
+    }
+
+    @return calc(($target/$context) * 1rem);
+
+}

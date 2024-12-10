@@ -1,0 +1,20 @@
+{
+  "name": "circle-cursor-js",
+  "version": "1.0.0",
+  "description": "A simple JavaScript script to create an interactive circular cursor for personal projects. Lightweight and easy to integrate, it enhances the visual experience with smooth animations and a modern feel.",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "clean": "rm -rf dist/*",
+    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "author": "Alessio Atzeni <info@alessioatzeni.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.2",
+    "bowser": "^2.11.0",
+    "gsap": "^3.12.5",
+    "parcel": "^2.13.2"
+  }
+}
