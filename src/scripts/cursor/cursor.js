@@ -3,7 +3,7 @@ import { lerp } from '../utils/utils';
 
 const Cursor = (() => {
 
-    const cursorPoint = document.querySelector('.cursor');
+    const cursorArea  = document.querySelector('.cursor');
     const cursorSmall = document.querySelector('.cursor__circle--small');
     const cursorLarge = document.querySelector('.cursor__circle--large');
 
@@ -98,7 +98,7 @@ const Cursor = (() => {
 
     const disable = () => {
 
-        cursorPoint.classList.add('cursor-hide');
+        cursorArea.classList.add('cursor-hide');
 
     }
 
