@@ -1,5 +1,6 @@
 # Circle Cursor JS
 A simple JavaScript script to create an interactive circular cursor for personal projects. Lightweight and easy to integrate, it enhances the visual experience with smooth animations and a modern feel.
+Feel free to modify and customize it according to your needs :)
 
 ## Live Demo
 Show the live demo (link to the demo or preview).
