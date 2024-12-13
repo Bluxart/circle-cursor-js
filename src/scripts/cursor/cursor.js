@@ -98,6 +98,7 @@ const Cursor = (() => {
 
     const disable = () => {
 
+        destroy();
         cursorArea.classList.add('cursor-hide');
 
     }
