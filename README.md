@@ -3,7 +3,7 @@ A simple JavaScript script to create an interactive circular cursor for personal
 Feel free to modify and customize it according to your needs :)
 
 ## Live Demo
-Show the live demo [Codepen](https://codepen.io/Bluxart/pen/azomomX)
+Show the live demo [Codepen](https://codepen.io/Bluxart/full/azomomX)
 
 ## Installation
 To get started, you'll need to have [Node.js](https://nodejs.org/en/download/) installed.
